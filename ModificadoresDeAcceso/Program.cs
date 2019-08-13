@@ -21,17 +21,25 @@ namespace ModificadoresDeAcceso
             try
             {
 
-                cliente.Curp ="111111111111111111";
+                cliente.Curp = "111111111111111111";
                 Console.WriteLine("Curp: " + cliente.Curp);
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 Console.WriteLine("La Curp debe ser de 18 caracteres");
 
             }
 
 
+            Cuenta cuenta
+                = new Cuenta();
+
+            cuenta.
+
+
             Console.Read();
         }
+
+   
     }
 }
